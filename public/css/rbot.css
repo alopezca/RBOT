@@ -1,4 +1,8 @@
-/* MAIN - GENERAL */
+@font-face {
+  font-family: "Zekton";
+  src: url("../fonts/zekton/zekton rg.ttf");
+}
+
 body {
   padding-top: 50px;
   background-color: #D9D9D9;
@@ -9,231 +13,30 @@ html, body {
   font-family: "Zekton";
 }
 
-.contenido {
-  margin-top: 30px;
-}
-
-#main {
-  height: 100%;
-  min-height: 100%;
-  position: relative;
-}
-
-#item {
-  max-height: 500px;
-}
-
-.seccion {
-  background-color: #333333;
-  color: white;
-  padding: 10px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 50px;
-}
-
-.jumbotron {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-image: url("../img/robot-hand3.jpg");
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 50px;
-}
-
-/* HEADER */
-#logo {
-  max-height: 150%;
-  padding-bottom: 10%;
-}
-
-.navbar-default {
-  background-color: #D9D9D9;
-  color: white;
-  border-bottom: 2px solid #2DA18A;
-}
-
-/* FOOTER */
-#myFooter {
-  background-color: #3c3d41;
-  color: white;
-  padding-top: 10px;
-  bottom: 0;
-  width: 100%;
-}
-
-#myFooter .footer-copyright {
-  background-color: #333333;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  text-align: center;
-}
-
-#myFooter .row {
-  margin-bottom: 10px;
-}
-
-#myFooter .navbar-brand {
-  margin-top: 35px;
-  height: 50px;
-}
-
-#myFooter .footer-copyright p {
-  margin: 10px;
-  color: #ccc;
-}
-
-#myFooter ul {
-  list-style-type: none;
-  padding-left: 0;
-  line-height: 1.7;
-}
-
-#myFooter h5 {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: 30px;
-}
-
-#myFooter h2 a {
-  font-size: 50px;
-  text-align: center;
-  color: white;
-}
-
-#myFooter a {
-  color: #d2d1d1;
-  text-decoration: none;
-}
-
-#myFooter a:hover,
-#myFooter a:focus {
-  text-decoration: none;
-  color: white;
-}
-
-#myFooter .social-networks {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 16px;
-}
-
-#myFooter .social-networks a {
-  font-size: 32px;
-  color: #f9f9f9;
-  padding: 10px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-#myFooter .social-networks a:hover {
-  text-decoration: none;
-}
-
-#myFooter .facebook:hover {
-  color: #0077e2;
-}
-
-#myFooter .twitter:hover {
-  color: #00aced;
-}
-
-#myFooter .pinterest:hover {
-  color: #bd081c;
-}
-
-#myFooter .instagram:hover {
-  color: #bd1774;
-}
-
-#myFooter .youtube:hover {
-  color: #ef1a1a;
-}
-
-#myFooter .facebook:hover {
-  color: #0077e2;
-}
-
-#myFooter .google:hover {
-  color: #ef1a1a;
-}
-
-#myFooter .twitter:hover {
-  color: #00aced;
-}
-
-@media screen and (max-width: 767px) {
-  #myFooter {
-    text-align: center;
-  }
-}
-
 .zekton {
   font-family: "Zekton";
 }
 
-#logoE {
-  max-width: 100%;
-}
-
-/*Logo con fondo blanco*/
-#blanco {
-  background-color: white;
-  opacity: 0.8;
-  border-radius: 10px;
-}
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
-.arreglar-nav {
-  margin-bottom: 50px;
-}
-
-#titulo {
-  text-align: center;
-  text-shadow: 2px 2px 2px black;
-  color: white;
-}
-
-#subtitulo {
-  text-align: center;
-  text-shadow: 2px 2px 2px black;
-  color: white;
-}
-
-@font-face {
-  font-family: "Zekton";
-  src: url("../fonts/zekton/zekton rg.ttf");
-}
-
-.dropdown-menu {
-  background-color: #D9D9D9;
+.contenido {
+  margin-top: 30px;
 }
 
 .panel-default > .panel-heading {
   background-color: #333333;
-  border-color: #2DA18A;
+  border-color: #337AB7;
   color: white;
 }
 
 .panel-default {
-  border: 3px solid #2DA18A;
+  border: 3px solid #337AB7;
   background-color: #D9D9D9;
 }
 
-#videoYoutube {
-  border: 3px solid #2DA18A;
-}
-
-/* Boton nuevo color */
+/* Botones submit */
 .btn-rbt {
   color: white;
   background-color: #333333;
-  border-color: #2DA18A;
+  border-color: #337AB7;
 }
 
 .btn-rbt:hover,
@@ -242,8 +45,8 @@ html, body {
 .btn-rbt.active,
 .open .dropdown-toggle.btn-rbt {
   color: white;
-  background-color: #2DA18A;
-  border-color: #2DA18A;
+  background-color: #337AB7;
+  border-color: #337AB7;
 }
 
 .btn-rbt:active,
@@ -267,86 +70,11 @@ fieldset[disabled] .btn-rbt:active,
 .btn-rbt.disabled.active,
 .btn-rbt[disabled].active,
 fieldset[disabled] .btn-rbt.active {
-  background-color: #2DA18A;
+  background-color: #337AB7;
   border-color: #333333;
 }
 
 .btn-rbt .badge {
-  color: #2DA18A;
+  color: #337AB7;
   background-color: white;
-}
-
-#infoRBX h2, h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.gallery {
-  position: relative;
-  z-index: 2;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-}
-
-.gallery figure {
-  -ms-flex-preferred-size: 33.333%;
-      flex-basis: 33.333%;
-  padding: 10px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.gallery figure img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-#infos {
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-
-#videoYoutube {
-  margin-bottom: 5%;
-}
-
-#titles {
-  background-color: #000000;
-  width: auto;
-  border-bottom: 3px solid #2DA18A;
-  border-radius: 5px;
-  color: white;
-  height: 50px;
-}
-
-/* CSS para home public */
-#inicio {
-  background-image: url("../img/fondoInicio.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 595px;
-}
-
-#descripcion {
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-
-#seccionbrazo {
-  background-color: white;
-}
-
-#contenedorContacto {
-  background-color: gray;
-}
-
-#contacto {
-  margin-top: 20px;
 }

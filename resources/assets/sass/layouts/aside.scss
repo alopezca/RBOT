@@ -1,9 +1,8 @@
 @import "../varsRobot";
 
-body{
+aside {
   background-color: $colorPruebas;
-}
-
-div {
-  transition: width 2s;
+  width: 100px;
+  height: 200px;
+  float: left;
 }

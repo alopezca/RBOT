@@ -17,8 +17,18 @@ mix.js('resources/assets/js/app.js', 'public/js')
 */
 
 mix.options({
-    processCssUrls: false // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+    processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+    postCss: [
+        require('autoprefixer')({
+            browsers: ['last 3 versions'],
+            cascade: false
+        })
+    ],
 });
 
-mix.mix.sass('resources/assets/sass/user/home.scss', 'public/css/user')
-    .mix.sass('resources/assets/sass/rbot.scss', 'public/css');
+mix.sass('resources/assets/sass/user/home.scss', 'public/css/user')
+    .sass('resources/assets/sass/layouts/nav.scss', 'public/css/layouts')
+    .sass('resources/assets/sass/layouts/aside.scss', 'public/css/layouts')
+    .sass('resources/assets/sass/layouts/footer.scss', 'public/css/layouts')
+    .sass('resources/assets/sass/home.scss', 'public/css')
+    .sass('resources/assets/sass/rbot.scss', 'public/css');
